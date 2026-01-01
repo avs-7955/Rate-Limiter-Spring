@@ -1,10 +1,10 @@
 package com.kyra.RateLimiter.ratelimiter.model;
 
-public class FixedWindow {
+public class FixedWindowConfig {
     public int limit;
     public long windowSizeMillis;
 
-    public FixedWindow(int limit, long windowSizeMillis) {
+    public FixedWindowConfig(int limit, long windowSizeMillis) {
         this.limit = limit;
         this.windowSizeMillis = windowSizeMillis;
     }
